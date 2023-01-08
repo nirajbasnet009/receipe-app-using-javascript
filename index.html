@@ -1,0 +1,38 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes App</title>
+    <script
+      src="https://kit.fontawesome.com/5eb5aa3a47.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input type="text" id="search-term" />
+        <button id="search"><i class="fas fa-search"></i></button>
+      </header>
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meals" id="fav-meal"></ul>
+      </div>
+      <div class="meals" id="meal">
+        <div class="meal-header">
+          <span class="random"> Random Recipe </span>
+        </div>
+      </div>
+      <div class="popup-container" id="popup-container">
+        <div class="popup" id="meal-popop">
+          <button id="close-popup"><i class="fas fa-close"></i></button>
+          <div class="meal-info" id="meal-info"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
